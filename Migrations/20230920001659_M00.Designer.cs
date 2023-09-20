@@ -12,7 +12,7 @@ using mf_apis_web_services_fuel_manager.Models;
 namespace mf_apis_web_services_fuel_manager.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230919235756_M00")]
+    [Migration("20230920001659_M00")]
     partial class M00
     {
         /// <inheritdoc />
@@ -44,7 +44,7 @@ namespace mf_apis_web_services_fuel_manager.Migrations
                         .HasColumnType("int");
 
                     b.Property<decimal>("Valor")
-                        .HasColumnType("decimal(18,2");
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("VeiculoId")
                         .HasColumnType("int");

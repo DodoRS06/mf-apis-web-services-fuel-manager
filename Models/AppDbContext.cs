@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
 
 namespace mf_apis_web_services_fuel_manager.Models
 {
@@ -7,7 +6,6 @@ namespace mf_apis_web_services_fuel_manager.Models
     {
         public AppDbContext(DbContextOptions options) : base(options)
         {
-
         }
         public DbSet<Veiculo> Veiculos { get; set; }
         public DbSet<Consumo> Consumos { get; set; }
